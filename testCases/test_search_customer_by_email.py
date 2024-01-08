@@ -13,6 +13,7 @@ class TestCustomerSearchByEmail_003:
     password = ReadConfig.get_password()
     logger = LogGen.loggen()
 
+    @pytest.mark.regression
     def test_search_customer_by_email(self, setup):
         self.logger.info("********search customer by email start********")
         self.driver = setup
@@ -33,7 +34,7 @@ class TestCustomerSearchByEmail_003:
 
         search_customer = SearchCustomer(self.driver)
         # search_customer.setEmail("james_pan@nopCommerce.com")
-        # calling set name metjod now
+        # calling set name method now
         search_customer.setFirstName("Victoria")
         search_customer.setLastName("Terces")
 

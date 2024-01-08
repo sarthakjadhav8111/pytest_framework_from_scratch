@@ -65,3 +65,19 @@ Step-10:
   - search customer by email
   - search customer by name
 
+Step-11:
+-- Grouping Test Cases (by using markers)
+  - @pytest.mark.sanity
+  - @pytest.mark.regression
+
+  - Add markers in pytest.ini file
+  - [pytest]
+      -markers=
+        sanity
+        regression
+
+        # Select group at run time
+
+Step-12:
+- Run tests in run.bat file
+  - crate run.bat file
