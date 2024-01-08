@@ -1,0 +1,57 @@
+--Selenium hybrid Framework
+
+What is Framework:
+-- framework is an organized way to of maintaining automation files.
+-- in framework all the files will communicate each other to perform certain task.
+
+Objective:
+-- Re-usability
+-- Maintainability
+
+Types:
+-- Built-in framework
+  -- pytest, robot framework, unittest
+
+-- customized or user defined framework
+  -- datadriven, keyboard driven, hybrid driven
+
+Phases--
+1--Analyze application, technology & skill set of team, choose test cases
+2--Design & implementation of framework
+3--Execution
+4--Maintanance(version control system)
+
+E-Commerce:
+--front end:  https://demo.nopcommerce.com/
+--back end:   https://admin-demo.nopcommerce.com
+
+# General Golder Structure--
+--Project name
+  --pageObjects(Package)
+    --login_data.py(file)
+
+  --testCases
+    --login_test.py
+
+  --utilities
+    -- excel_util.py
+    --custome_logger.py
+
+  --testData
+    --test_data.xlsx
+
+  --configurations
+    --confi.ini
+    --read_config.py
+
+  --logs
+    --automation.logger
+
+  --screenshots
+    --a.Png 
+    --b.png 
+
+  --reports
+    --reports.html
+  
+
