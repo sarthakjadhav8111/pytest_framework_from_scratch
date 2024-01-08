@@ -13,4 +13,7 @@ phases:
       - aws s3 cp ./reports/report1.html s3://sarthak-bucket-for-artifact-storage/report1.html
 
 artifacts:
-  files:
+ type: zip
+   paths:
+     - '*'
+  
