@@ -81,3 +81,13 @@ Step-11:
 Step-12:
 - Run tests in run.bat file
   - crate run.bat file
+
+Step-13:
+- Push code to github
+  Commands:
+    -git init
+    -git remote add origin <repo url>
+    -git add .
+    -git commit -m "message"
+    -git push origin main
+
